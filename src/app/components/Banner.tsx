@@ -12,7 +12,7 @@ const Banner = () => {
       {/* Content */}
       <div className="relative text-center text-white z-10 px-4">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold mb-6">
-          Welcome to Our <span className="text-orange-500">E-Commerce Store</span>
+          Welcome to Our <span className="text-yellow-400">E-Commerce Store</span>
         </h1>
         <p className="text-base sm:text-lg lg:text-xl mb-8 leading-relaxed">
           Discover the best products at unbeatable prices.
@@ -22,11 +22,13 @@ const Banner = () => {
           Experience fast and secure shipping.
         </p>
         <Link href="/product">
-          <button className="bg-orange-500 text-white text-lg sm:text-xl px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-orange-600 transition-transform transform hover:scale-105">
+          <button className="bg-yellow-400 text-white text-lg sm:text-xl px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-yellow-600 transition-transform transform hover:scale-105">
             Shop Now
           </button>
         </Link>
       </div>
+
+      
     </div>
   );
 };

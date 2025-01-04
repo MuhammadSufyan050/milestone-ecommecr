@@ -4,17 +4,19 @@ import React from "react";
 const Carousel = () => {
   return (
     <div className="mb-16 mt-16 px-4 md:px-8 lg:px-16">
-      {/* Header */}
+  
       <div className="text-center mb-10">
         <h1 className="scroll-m-20 text-xl font-extrabold tracking-tight text-gray-900 lg:text-3xl">
           Our Categories
         </h1>
+        <p className="mt-2 text-gray-600 sm:text-lg lg:text-xl">
+          Explore our wide range of products
+        </p>
         <div className="flex mt-2 justify-center">
         
         </div>
       </div>
 
-      {/* Categories Grid */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {/* Category 1 */}
        
